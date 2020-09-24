@@ -22,7 +22,7 @@
 					<a href="index.php">Quiz</a>
 				</li>
 				<li>
-					<a href="contact.php">Research</a>
+					<a href="info.php">Research</a>
 				</li>
 			</ul>
 		</nav>
