@@ -1,9 +1,9 @@
 
 .header{
     padding: 10px;
-    background-color:lightgrey;
+    background-color:grey;
     text-align: center;
-    color: bisque;
+    color: beige;
     font-size: 40px;
     font-family: 'Bangers', cursive;
     text-align: left;
@@ -12,10 +12,9 @@
 }
 .headertext{
     align-items:left;
-
 }
 
-ul{
+ul {
     list-style-type: none;
     align-items: right;
     padding: 0px;
@@ -36,7 +35,7 @@ li{
     text-decoration-color:black;
 }
   
-a {
+  a{
     display: inline-block;
     padding: 5px;
     border-radius: 30%;
@@ -46,7 +45,7 @@ a {
     align-items: baseline;
     align-items: flex-end; 
     justify-content: space-between;
-}
+  }
 
 
  a:hover {
@@ -73,12 +72,6 @@ a {
 
 .footer1{
  
-}
-
-.footer{
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer3{
