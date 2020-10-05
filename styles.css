@@ -1,0 +1,98 @@
+.the_header{
+    background-color: darkgrey;
+    background-size:100%;
+    border: solid black 1px;
+    border-radius:10px;
+    padding-left:10px;
+
+}
+
+.the_header h1{
+    font-family:'Bangers', cursive;
+    letter-spacing: 0.1em;
+    color:black;
+}
+
+h5{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    color:black;
+}
+
+.navbar{
+    background-color: darkgrey;
+    margin-right: 2%;
+}
+
+.navbar a{
+    justify-content: space-between;
+    height:25px;
+    padding-top:10px;
+    float:right;
+    background-color: lightgrey;
+    width:15%;
+    border: solid black 1px;
+    border-radius:10px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 3% 3%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar a:hover{
+    background-color: darkblue;
+    border: solid white 3px;
+    color:white;
+    transition-duration: 0.5s;
+}
+
+.footer{
+    font-family: 'Varela Round', sans-serif;
+    height:auto;
+    border: solid  black 1px;
+    border-radius: 10px;
+    width:100%;
+    display: flex;
+    background:darkgrey;
+    justify-content:space-between;
+}
+
+.footer1{
+    font-size: 20px;
+    padding-left:10px;
+}
+
+.footer2 ul{
+    list-style-type: none;
+    justify-content: center;
+    padding-top:25px;
+    line-height:2em;
+
+ 
+}
+
+.footer3{
+    justify-content: right;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.findus{
+    font-size: 20px;;
+    padding-top:20px;
+    padding-right:50px;
+
+}
+.social_media{
+    height:150x;
+    width:200px;
+    position:relative;
+    margin-bottom: 0px;
+    padding-left:20px;
+}
+
+.social_media:hover{
+    cursor:pointer;
+}
