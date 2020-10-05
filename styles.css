@@ -1,103 +1,98 @@
+.the_header{
+    background-color: darkgrey;
+    background-size:100%;
+    border: solid black 1px;
+    border-radius:10px;
+    padding-left:10px;
 
-.header{
-    padding: 10px;
-    background-color:grey;
-    text-align: center;
-    color: beige;
-    font-size: 40px;
+}
+
+.the_header h1{
+    font-family:'Bangers', cursive;
+    letter-spacing: 0.1em;
+    color:black;
+}
+
+h5{
     font-family: 'Bangers', cursive;
-    text-align: left;
-    display:flex;
-    align-items: stretch;
-}
-.header_text{
-    align-items:left;
-}
-
-.header_text h1{
-    margin-top: 8%;
     letter-spacing: 0.1em;
+    font-size: 15px;
+    color:black;
 }
 
-.header_text h5{
-    margin-top: 2%;
-    letter-spacing: 0.1em;
+.navbar{
+    background-color: darkgrey;
+    margin-right: 2%;
 }
 
-.navbar ul {
-    list-style-type: none;
-    position:relative;
-    align-content: right;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Varela Round', sans-serif;
-    align-items: baseline;
-    align-items: flex-end;
-    padding: 15px;
-    margin-bottom:0%;
-    
-}
-
-.navbar ul li{
-    float: left;
-    align-items:baseline;
-    align-items: flex-end;
-    border: solid 1px;
-    border-color:darkgray;
-    border-radius: 30%;
-    text-decoration-color:black;
-    vertical-align: bottom;
-}
-  
-.navbar ul li a{
-    display: inline-block;
-    padding: 5px;
-    border-radius: 30%;
-    background-color: #dddddd;
-    text-decoration:none;
-    text-decoration-color: black;
-    align-items: baseline;
-    align-items: flex-end; 
+.navbar a{
     justify-content: space-between;
-  }
-
-
- .navbar ul li a:hover {
-    background-color:beige ;
-    text-decoration-color:darkblue;
-    transition-duration: .5s;
-    color: white;
-    text-shadow: 2px 2px 2px black, 0 0 20px skyblue, 0 0 20px beige;
-
+    height:25px;
+    padding-top:10px;
+    float:right;
+    background-color: lightgrey;
+    width:15%;
+    border: solid black 1px;
+    border-radius:10px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 3% 3%;
+    font-family: 'Varela Round', sans-serif;
 }
 
-.mainsection{
-    font-size: 50px;
-    background: rgb(94, 194, 228);
-    padding: 100px;
-    /*delete this when you want*/
+.navbar a:hover{
+    background-color: darkblue;
+    border: solid white 3px;
+    color:white;
+    transition-duration: 0.5s;
 }
 
 .footer{
     font-family: 'Varela Round', sans-serif;
+    height:auto;
+    border: solid  black 1px;
+    border-radius: 10px;
+    width:100%;
     display: flex;
-    background:lightgrey;
+    background:darkgrey;
     justify-content:space-between;
 }
 
 .footer1{
-
+    font-size: 20px;
+    padding-left:10px;
 }
 
 .footer2 ul{
     list-style-type: none;
+    justify-content: center;
+    padding-top:25px;
+    line-height:2em;
+
+ 
 }
 
 .footer3{
-
+    justify-content: right;
+    padding-right: 40px;
+    align-items: center;
 }
 
+.findus{
+    font-size: 20px;;
+    padding-top:20px;
+    padding-right:50px;
+
+}
 .social_media{
-    height:150px;
-    width:250px;
+    height:150x;
+    width:200px;
+    position:relative;
+    margin-bottom: 0px;
+    padding-left:20px;
+}
+
+.social_media:hover{
+    cursor:pointer;
 }
