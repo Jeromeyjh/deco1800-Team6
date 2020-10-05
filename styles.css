@@ -6,6 +6,14 @@
     padding-left:10px;
 
 }
+.logo{
+    position:relative;
+    float:right;
+    padding-right:10px;
+    padding-top:10px;
+    height:50px;
+    width:250px;
+}
 
 .the_header h1{
     font-family:'Bangers', cursive;
@@ -64,13 +72,18 @@ h5{
     padding-left:10px;
 }
 
+.footer1 img{
+    padding-bottom:10px;
+    padding-left:0px;
+    width:250px;
+}
+
 .footer2 ul{
     list-style-type: none;
     justify-content: center;
     padding-top:25px;
     line-height:2em;
 
- 
 }
 
 .footer3{
