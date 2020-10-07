@@ -1,15 +1,20 @@
-.question1-container {
-    border: 5px solid black;
+body {
     padding: 30px;
-    float: left;
     background-image: url("images/background.png");
-    height: 100%;
-    width: 96.5%;
+}
+
+#question {
+    font-size: 36px;
+    text-align: center;
+    float: none;
+    font-family: 'Papyrus', fantasy;
+    color: white;
 }
 
 .choice1-container {
     border: 3px solid black;
     padding: 30px;
+    top: 50%;
     float: left;
     width: 96.5%;
 }
@@ -26,6 +31,8 @@
     font-size: 36px;
     text-align: center;
     float: none;
+    font-family: 'Papyrus', fantasy;
+    color: white;
 }
 
 .choice-container {
@@ -37,24 +44,41 @@
 .choiceA,
 .choiceB {
     float: left;
-    font-size: 50px;
+    font-size: 48px;
     text-align: center;
     margin: 50px;
     margin-left: 10%;
     height: 200px;
     width: 30%;
+    font-family: 'Papyrus', fantasy;
 }
 
 .choiceC,
 .choiceD {
     float: left;
-    font-size: 50px;
+    font-size: 48px;
     text-align: center;
     margin: 50px;
     margin-left: 10%;
     margin-top: 0px;
     height: 200px;
     width: 30%;
+    font-family: 'Papyrus', fantasy;
+}
+
+.choiceA:hover,
+.choiceB:hover,
+.choiceC:hover,
+.choiceD:hover {
+    background-color: #F2BB13;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.link {
+    color: #181926;
+    text-decoration:none;
 }
 
 .options {
@@ -95,6 +119,8 @@
 .text {
     font-size: 65px;
     text-align: center;
+    font-family: 'Papyrus', fantasy;
+    color: white;
 }
 
 .startAgain {
@@ -108,6 +134,15 @@
     position: absolute;
     left: 35%;
     top: 55%;
+    font-family: 'Papyrus', fantasy;
+    color: #181926;
+}
+
+.startAgain:hover {
+    background-color: #F2BB13;
+    color:  white;
+    cursor: pointer;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .PoliceOnLeft {
@@ -147,6 +182,8 @@
 .result {
     font-size: 30px;
     text-align: left;
+    font-family: 'Papyrus', fantasy;
+    color: white;
 }
 
 .next {
@@ -159,4 +196,13 @@
     position: absolute;
     left: 60%;
     top: 70%;
+    font-family: 'Papyrus', fantasy;
+    color: #181926;
+}
+
+.next:hover {
+    background-color: #F2BB13;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

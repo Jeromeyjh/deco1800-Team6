@@ -1,0 +1,35 @@
+.container{
+    display:block;
+    border:1px solid black;
+	width:1000px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 125px;
+    background-color: aquamarine;
+}
+h1{
+    font-size: 53px;
+    margin-left: 290px;
+    letter-spacing: 6px;
+    font-family: 'Bangers', cursive;
+}
+section{
+    margin-left: 90px;
+    margin-top:30px;
+}
+img{
+    margin-left:190px;
+}
+
+p{
+    font-size:  30px;
+    margin-left: 290px;
+    
+    display: inline;
+    
+}
+a {
+    text-decoration:none;
+ }
+
+

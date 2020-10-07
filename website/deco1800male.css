@@ -1,0 +1,56 @@
+.container{
+    display:block;
+    border:1px solid black;
+	width:1000px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 130px;
+    background-color: aquamarine;
+}
+h1{
+    font-size: 53px;
+    margin-left: 215px;
+    letter-spacing: 5px;
+    font-family: 'Bangers', cursive;
+}
+section{
+    width:70%;
+    height:40%;
+    margin-left: 148px;
+    margin-top:80px;
+    
+}
+img{
+    margin-left: 100px;
+    top: 15px;
+    position: relative;
+}
+
+.userinput{
+    bottom: 30px;
+   
+    margin-left: 200px;
+    display: inline-block;
+    
+}
+label{
+    font-size: 25px;
+   
+}
+input[type="text"]{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width:120%;
+    
+}
+input[type="number"]{
+    margin-top: 10px;
+    
+    width:120%;
+   
+}
+button{
+    width: 80px;
+    height:30px;
+    margin-left: 750px;
+}
