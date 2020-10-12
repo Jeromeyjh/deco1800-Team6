@@ -1,8 +1,5 @@
 .the_header{
-    background-color: darkgrey;
-    background-size:100%;
-    border: solid black 1px;
-    border-radius:10px;
+    background-color: none;
     padding-left:10px;
 
 }
@@ -11,7 +8,7 @@
     float:right;
     padding-right:10px;
     padding-top:10px;
-    height:50px;
+    height:40px;
     width:250px;
 }
 
@@ -38,8 +35,8 @@ h5{
     height:25px;
     padding-top:10px;
     float:right;
-    background-color: lightgrey;
-    width:15%;
+    background-color: lightsteelblue;
+    width:10%;
     border: solid black 1px;
     border-radius:10px;
     text-align:center;
@@ -50,20 +47,17 @@ h5{
 }
 
 .navbar a:hover{
-    background-color: darkblue;
-    border: solid white 3px;
-    color:white;
+    background-color: lightyellow;
+    border: solid black 3px;
+    color:darkblue;
     transition-duration: 0.5s;
 }
 
 .footer{
     font-family: 'Varela Round', sans-serif;
     height:auto;
-    border: solid  black 1px;
-    border-radius: 10px;
     width:100%;
     display: flex;
-    background:darkgrey;
     justify-content:space-between;
 }
 
@@ -74,6 +68,7 @@ h5{
 
 .footer1 img{
     padding-bottom:10px;
+    height:40px;
     padding-left:0px;
     width:250px;
 }
