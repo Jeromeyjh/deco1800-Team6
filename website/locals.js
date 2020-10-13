@@ -3,15 +3,12 @@ function registeruser(){
     const user_age = document.getElementById("user_age").value
    
     if (username && user_age !=null) {
-        const item = {
-            username: username,
-            user_age: user_age,
-        }
-    console.log(item);
-    sessionStorage.setItem(sessionStorage.length, JSON.stringify(item));
+        sessionStorage.setItem("username", JSON.stringify(username));
     }
 
     window.location.href = "question1.html"
+    var name = JSON.parse(sessionStorage.getItem("username"))
+    document.getElementById("question").innerHTML = name
     
 }
     

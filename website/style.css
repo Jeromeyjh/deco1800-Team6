@@ -7,36 +7,28 @@ body {
     font-size: 36px;
     text-align: center;
     float: none;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
     color: white;
 }
 
 .choice1-container {
-    border: 3px solid black;
+    background-color: rgba(248, 246, 246, 0.3);
     padding: 30px;
     top: 50%;
     float: left;
     width: 96.5%;
 }
 
-.question-container {
-    border: 5px solid black;
-    padding: 30px;
-    float: left;
-    background-image: url("images/background.png");
-    width: auto;
-}
-
 .question {
     font-size: 36px;
     text-align: center;
     float: none;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
     color: white;
 }
 
 .choice-container {
-    border: 3px solid black;
+    background-color: rgba(248, 246, 246, 0.3);
     padding: 30px;
     float: left;
 }
@@ -50,7 +42,7 @@ body {
     margin-left: 10%;
     height: 200px;
     width: 30%;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .choiceC,
@@ -63,7 +55,7 @@ body {
     margin-top: 0px;
     height: 200px;
     width: 30%;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .choiceA:hover,
@@ -97,11 +89,10 @@ body {
 }
 
 .result-container {
-    border: 5px solid black;
+    background-color: rgba(248, 246, 246, 0.3);
     padding: 30px;
     height: 100%;
     width: auto;
-    background-image: url("images/background.png");
 }
 
 .text-container {
@@ -117,9 +108,9 @@ body {
 }
 
 .text {
-    font-size: 65px;
+    font-size: 60px;
     text-align: center;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
     color: white;
 }
 
@@ -134,7 +125,7 @@ body {
     position: absolute;
     left: 35%;
     top: 55%;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
     color: #181926;
 }
 
@@ -182,7 +173,7 @@ body {
 .result {
     font-size: 30px;
     text-align: left;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
     color: white;
 }
 
@@ -196,7 +187,7 @@ body {
     position: absolute;
     left: 60%;
     top: 70%;
-    font-family: 'Papyrus', fantasy;
+    font-family: 'Varela Round', sans-serif;
     color: #181926;
 }
 
