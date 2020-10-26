@@ -1,0 +1,475 @@
+body {
+    padding: 30px;
+    background-image: url("images/background.png");
+}
+
+#question {
+    font-size: 36px;
+    text-align: center;
+    float: none;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.container1{
+    display:block;
+    border:1px solid black;
+	width:1000px;
+    height: 700px;
+    margin-top: 5px;
+    margin-left: 125px;
+    background-color:rgb(248, 246, 246);
+}
+
+.p{
+    padding left: 5px;
+    padding right: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+.choice1-container {
+    background-color: rgba(248, 246, 246, 0.3);
+    padding: 30px;
+    top: 50%;
+    float: left;
+    width: 96.5%;
+}
+
+.question {
+    font-size: 36px;
+    text-align: center;
+    float: none;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.choice-container {
+    background-color: rgba(248, 246, 246, 0.3);
+    padding: 30px;
+    float: left;
+}
+
+.choiceA,
+.choiceB {
+    float: left;
+    font-size: 48px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 10%;
+    height: 200px;
+    width: 30%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.choiceC,
+.choiceD {
+    float: left;
+    font-size: 48px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 10%;
+    margin-top: 0px;
+    height: 200px;
+    width: 30%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.choiceA:hover,
+.choiceB:hover,
+.choiceC:hover,
+.choiceD:hover {
+    background-color: #F2BB13;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.link {
+    color: #181926;
+    text-decoration:none;
+}
+
+.options {
+    font-size: 50%;
+}
+
+.Police {
+    position: absolute;
+    right: -3%;
+    top: 95%;
+    margin-left:50px;
+}
+
+.policeLogo {
+    height: 80%;
+    width: 80%;
+    top:80%;
+}
+
+.result-container {
+    background-color: rgba(248, 246, 246, 0.3);
+    padding: 30px;
+    height: 120%;
+    width: auto;
+    display:in
+}
+
+.text-container {
+    border: 5px solid black;
+    padding: 30px;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 100px;
+    position: absolute;
+    top: 5%;
+    margin-left: 30%;
+}
+
+.text {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.startAgain {
+    font-size: 52px;
+    text-align: center;
+    border-radius: 50%;
+    height: 40%;
+    width: 30%;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    left: 35%;
+    top: 55%;
+    font-family: 'Varela Round', sans-serif;
+    color: #181926;
+}
+
+.startAgain:hover {
+    background-color: #F2BB13;
+    color:  white;
+    cursor: pointer;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.PoliceOnLeft {
+    left: 5%;
+    margin: 100px;
+    margin-bottom: 200px;
+}
+
+.policeLogoOnLeft {
+    height: 400px;
+    width: 250px;
+}
+
+.content-container {
+    position:relative;
+    float:right;
+    border: 5px solid black;
+    padding: 30px;
+    psition: absolute;
+    margin-left:0px;
+    height: 50%;
+    width: 400px;
+    height:450px;
+    top: 10%;
+}
+
+.PoliceOnLeftSmaller {
+    left: 5%;
+    margin: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.policeLogoOnLeftSmaller {
+    height: 400px;
+    width: 250px;
+    display: inline-block;
+
+}
+
+.result {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+
+}
+
+.next {
+    font-size: 40px;
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    left: 60%;
+    top: 85%;
+    font-family: 'Varela Round', sans-serif;
+    color: #181926;
+}
+
+.next:hover {
+    background-color: #F2BB13;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.container{
+    display:block;
+    border:1px solid black;
+	width:1000px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 125px;
+    background-color:rgb(248, 246, 246);
+}
+h1{
+    
+    font-weight: bold;
+    font-size: 53px;
+    margin-left: 290px;
+    letter-spacing: 6px;
+    font-family: 'Bangers', cursive;
+}
+section{
+    margin-left: 90px;
+    margin-top:30px;
+}
+img{
+    margin-left:190px;
+}
+
+.male{
+    background-image:url('Capture.png') ;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    width:190px;
+    height: 250px;
+    font-size:  40px;
+    margin-left: 190px;  
+    color:black;
+    
+}
+button{
+    font-family: 'Piazzolla', serif;
+    font-weight: bolder;
+    transition: 0.2s; 
+    bottom: -30px;
+}
+button:hover{
+    transform: scale(1.1);
+    color: wheat;
+    font-size: 50px;
+}
+.female{
+    background-image:url('Capture1.png') ;
+    background-repeat: no-repeat;
+    width:190px;
+    height: 250px;
+    font-size:  35px;
+    margin-left: 230px; 
+    margin-top: 20px; 
+    color:black;   
+}
+a {
+    text-decoration:none;
+ }
+
+ body{
+    background-image: url('bg.png');
+}
+h1{
+    font-size: 53px;
+    font-family: 'Piazzolla', serif;
+    margin-left: 0px;
+    letter-spacing: 6px;
+    font-family: 'Bangers', cursive;
+}
+
+ .container{
+    display:block;
+    border:1px solid black;
+	width:1000px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 130px;
+    background-color:rgb(248, 246, 246);
+}
+
+section{
+    width:70%;
+    height:40%;
+    margin-left: 148px;
+    margin-top:80px;
+    
+}
+img{
+    margin-left: 30px;
+    bottom: 20px;
+    position: relative;
+}
+
+.userinput{
+    bottom: 90px;
+    margin-left: 130px;
+    position:relative;
+    display: inline-block;
+    
+}
+label{
+    font-size: 25px;
+   
+}
+input[type="text"]{
+    
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width:120%;
+    
+    
+    
+}
+input[type="number"]{
+    margin-top: 10px;
+    
+    width:120%;
+   
+}
+button{
+    background-color: rgb(216, 214, 212);
+    box-shadow:1px 2px black;
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+    width: 120px;
+    height:px;
+    margin-left: 750px;
+    top:10px;
+    position: relative;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #427388; 
+    border-radius: 40px;
+  } 
+  
+  
+button:hover{
+   
+    text-shadow: 1px 1px 2px #427388; 
+    background-color: rgb(240, 240, 157);
+}
+
+.the_header{
+    background-color: none;
+    padding-left:10px;
+
+}
+.logo{
+    position:relative;
+    float:right;
+    padding-right:10px;
+    padding-top:10px;
+    height:100px;
+    width:300px;
+}
+
+.the_header h1{
+    font-family:'Bangers', cursive;
+    letter-spacing: 0.1em;
+    color:black;
+}
+
+h5{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    color:black;
+}
+
+.navbar{
+    background-color: darkgrey;
+    margin-right: 2%;
+}
+
+.navbar a{
+    justify-content: space-between;
+    height:25px;
+    align-items:right;
+    padding-top:10px;
+    float:right;
+    background-color: lightsteelblue;
+    width:10%;
+    border: solid black 1px;
+    border-radius:10px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 3% 3%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar a:hover{
+    background-color: lightyellow;
+    border: solid black 3px;
+    color:darkblue;
+    transition-duration: 0.5s;
+}
+
+.footer{
+    font-family: 'Varela Round', sans-serif;
+    height:auto;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer1{
+    font-size: 20px;
+    padding-left:10px;
+}
+
+.footer1 img{
+    padding-bottom:10px;
+    height:40px;
+    padding-left:0px;
+    width:250px;
+}
+
+.footer2 ul{
+    list-style-type: none;
+    justify-content: center;
+    padding-top:25px;
+    line-height:2em;
+
+}
+
+.footer3{
+    justify-content: right;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.findus{
+    font-size: 20px;;
+    padding-top:20px;
+    padding-right:50px;
+
+}
+.social_media{
+    height:150x;
+    width:200px;
+    position:relative;
+    margin-bottom: 0px;
+    padding-left:20px;
+}
+
+.social_media:hover{
+    cursor:pointer;
+}
